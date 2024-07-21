@@ -1,0 +1,144 @@
+.hospitalname{
+    font-size: 60px;
+    padding: 80px;
+    color: white;
+    padding-left: 195px;
+}
+.hospital-header div{
+    display: block;
+
+}
+header{
+    display: flex;
+    justify-content: space-around;
+
+}
+.hospital-header{
+    height: 150px;
+    width: 100%;
+    background-color: rgb(24, 133, 176);
+    border-radius: 5px;
+    
+}
+
+nav{
+    margin-top: 2px;
+    width: 100%;
+}
+
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    color: rgb(24, 133, 176);
+    text-decoration: underline;
+}
+section .home{
+    height: 700px;
+    width: 95%;
+    border-left: none;
+    border-top: none;
+    border-right: 0.5px rgb(69, 61, 61) solid;
+    border-bottom: 0.5px rgb(69, 61, 61) solid;
+
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.header-form{
+   
+    background-color: aqua;
+
+}
+.content-below{
+    background-color: aquamarine;
+    height: 580px;
+    margin-top: 10px;
+    position: fixed;
+    width: 100%;
+}
+.login-form{
+    background-color: rgb(210, 243, 235);
+    height: 450px;
+    width: 700px;
+    margin: 100px;
+    margin-top: 100px;
+    margin-left: 150px;
+    position: fixed;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 25px;
+
+
+}
+.form-desc{
+    font-size: 20px;
+}
+section{
+    margin-top: 40px;
+   
+}
+.home {
+    background-image: url(images/about1.jpg);
+}
+.home p{
+    font-size: 65px;
+    padding: 85px;
+    margin-left: 45px;
+    font-weight:lighter
+}
+.home img{
+    height: 250px;
+    width: 250px;
+    margin: 45px;
+    border: 1px gray solid;
+    border-radius: 25px;
+}
+
+.q1{
+    font-size: 50px;
+    margin-left: 600px;
+    text-decoration: underline skyblue;
+}
+.q2{
+    font-size: 35px;
+    margin-left: 50px;
+}
+.q3{
+    font-size: 35px;
+    margin-left: 50px;
+    color: cornflowerblue;
+}
+.space{
+    height: 50px;
+}
+.home form{
+    border: 2px gray solid;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+    height: 500px;
+    width: 700px;
+    margin: 50px;  
+    padding: 40px;
+
+}
+textarea{
+    resize: none;
+
+}
+ul li{
+    display: block;
+}

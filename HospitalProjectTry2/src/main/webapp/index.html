@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+    <header>
+        <div>
+            <img src="images/istockphoto-1578253407-1024x1024.jpg" height="150" width="350" alt="">
+
+        </div>
+        <div class="hospital-header">
+            <div>
+                <img src="images/hospital-heading.png" height="150" width="1121">
+            </div>
+
+
+
+        </div>
+
+    </header>
+
+    <nav>
+
+        <ul class="bg-warning p-4 m-1">
+            <li><a href="#home">HOME</a> </li>
+            <li><a href="#ourdoctors">OUR DOCTORS</a> </li>
+            <li><a href="#ourfacilities">OUR FACILITIES</a> </li>
+            <li><a href="#register">REGISTER</a> </li>
+            <li><a href="#attend">ATTEND A SESSION</a> </li>
+            <li><a href="#other">OTHER REgISTRATION</a> </li>
+
+
+
+
+
+
+
+        </ul>
+
+        <div class="mt-4 mb-4 ms-4">
+            <a href="adminlogin.html"><button class="btn btn-warning text-white p-2 m-2 ms-3 me-3">ADMIN
+                    LOGIN</button></a>
+            
+            <a href="CheckPatient.html"><button
+                    class="btn btn-warning text-white p-2 m-2 ms-3 me-3">CHECK PATIENT STATUS</button></a>
+            <a href="doctorlogin.html"><button class="btn btn-warning text-white p-2 m-2 ms-3 me-3">DOCTOR
+                    LOGIN</button></a>
+
+
+
+        </div>
+
+    </nav>
+
+    <section>
+        <span id="home"></span>
+        <div class="home">
+            <div class="home1">
+                <p>Medical Services that <br>
+                    You can trust 100%</p>
+
+
+            </div>
+
+
+
+        </div>
+
+        <span id="ourdoctors" class="q1">OUR DOCTORS</span>
+        <div class="home">
+            <img src="images/p1.jpg" alt="">
+            <img src="images/p2.jpg" alt="">
+            <img src="images/p3.jpg" alt="">
+            <img src="images/g1.jpg" alt="">
+            <div>
+                <span class="q2"><i>Your health our responisibility, &nbsp; &nbsp;</i></span><span class="q3"><i>&nbsp;
+                        &nbsp; &nbsp; Choose the best</i></span>
+
+            </div>
+            <img src="images/doctor1.jfif" alt="">
+            <img src="images/doctor2.jpg" alt="">
+            <img src="images/doctor3.jfif" alt="">
+            <img src="images/doctors-10.png" alt="">
+
+
+
+        </div>
+
+
+        </div>
+        <span id="ourfacilities" class="q1">OUR FACILITIES</span>
+
+
+        <div class="home">
+            <img src="images/breadcumb1 copy.jpg" alt="">
+            <img src="images/g1.jpg" alt="">
+            <img src="images/g2.jpg" alt="">
+            <img src="images/g3.jpg" alt="">
+            <div>
+                <span class="q2"><i>Your care our responisibility, &nbsp; &nbsp;</i></span><span class="q3"><i>&nbsp;
+                        &nbsp; &nbsp; Choose the best</i></span>
+
+            </div>
+            <img src="images/g4.jpg" alt="">
+            <img src="images/tab.jpg" alt="">
+            <img src="images/breadcumb3.jpg" alt="">
+            <img src="images/2.jpg" alt="">
+
+
+        </div>
+
+        </div>
+        <span id="register" class="q1">Register</span>
+
+        <div class="home">
+            <div class="space">
+
+            </div>
+            <form action="RegisterSevlet1" >
+                <div>
+                    <label for="name" class="form-label">Enter Name</label>
+                    <div>
+                        <input type="text" name="name" id="" class="form-control w-50 "  >
+                    </div>
+                </div>
+                <div>
+                    <label for="age" class="form-label">Enter age</label>
+                    <div>
+                        <input type="number" name="age" id="" class="form-control w-50 "  >
+                    </div>
+                </div>
+                <div>
+                    <label for="city" class="form-label" >Enter city</label>
+                    <div>
+                        <input type="text" name="city" id=""  class="form-control w-50 " >
+                    </div>
+                </div>
+                <div>
+                    <label for="gender" class="form-label">Select Gender</label>
+                    <div>
+                        <input type="radio" name="gender" value="male" id="" class="form-check-input">Male
+                        <input type="radio" name="gender" value="female" id="" class="form-check-input">Female
+
+                    </div>
+                </div>
+                <div>
+                    <label for="disease" class="form-label">Explain Your Issue</label>
+                    <div>
+                        <textarea name="disease" id="" class="form-control w-75  "></textarea>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-warning m-4 w-25">SUBMIT</button> <button type="reset" class="btn btn-danger m-4 w-25">RESET</button>
+                </div>
+            </form>
+
+
+        </div>
+        <span id="attend" class="q1">BOOK A SESSION</span>
+        
+
+        <div class="home">
+            <div class="space">
+
+            </div>
+            <form action="BookSessionServlet1" >
+                <div>
+                    <label for="name" class="form-label">Enter Name</label>
+                    <div>
+                        <input type="text" name="name" id="" class="form-control w-50  "  >
+                    </div>
+                </div>
+                <div>
+                    <label for="age" class="form-label">Enter age</label>
+                    <div>
+                        <input type="number" name="age" id="" class="form-control w-50  "  >
+                    </div>
+                </div>
+                <div>
+                    <label for="city" class="form-label" >Enter city</label>
+                    <div>
+                        <input type="text" name="city" id=""  class="form-control w-50  " >
+                    </div>
+                </div>
+                <div>
+                    <label for="gender" class="form-label">Select Gender</label>
+                    <div>
+                        <input type="radio" name="gender" value="male" id="" class="form-check-input">Male
+                        <input type="radio" name="gender" value="female" id="" class="form-check-input">Female
+
+                    </div>
+                </div>
+                <div>
+                    <label for="disease" class="form-label">Explain Your Issue</label>
+                    <div>
+                        <textarea name="disease" id="" class="form-control w-75  "></textarea>
+                    </div>
+                </div>
+                <div>
+                    <button type="submit" class="btn btn-warning m-4 w-25">SUBMIT</button> <button type="reset" class="btn btn-danger m-4 w-25">RESET</button>
+                </div>
+            </form>
+
+
+
+        </div>
+        <span id="other" class="q1">Other Registration</span>
+
+        <div class="home">
+            <div>
+                <ul>
+                    <li ><a href="">REGISTRATION 1</a></li>
+                    <li><a href="">REGISTRATION 1</a></li>
+                    <li><a href="">REGISTRATION 1</a></li>
+                    <li><a href="">REGISTRATION 1</a></li>
+                    <li><a href="">REGISTRATION 1</a></li>
+                    <li><a href="">REGISTRATION 1</a></li>
+                    <li><a href="">REGISTRATION 1</a></li>
+
+                </ul>
+            </div>
+
+
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
